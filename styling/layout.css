@@ -1,0 +1,17 @@
+.content-wrapper {
+  width: 800pt;
+  margin: 0 auto;
+}
+
+#header {
+  padding-top: 0.5em;
+}
+
+@media screen and (max-width: 800pt) {
+
+  .content-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+}
