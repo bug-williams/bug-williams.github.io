@@ -1,3 +1,7 @@
+body {
+  background-color: hsl(245, 30%, 96%);
+}
+
 .content-wrapper {
   width: 800pt;
   margin: 0 auto;
@@ -5,6 +9,8 @@
 
 #header {
   padding-top: 0.5em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid hsl(245, 35%, 86%);
 }
 
 @media screen and (max-width: 800pt) {
