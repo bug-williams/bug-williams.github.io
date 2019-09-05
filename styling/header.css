@@ -1,3 +1,7 @@
+#header {
+  margin: 2em;
+}
+
 #header-button-grid {
   display: grid;
   grid-template-areas: "a b c";
@@ -16,7 +20,19 @@
   grid-area: 'c';
 }
 
-@media screen and (max-width: 400pt) {
+@media screen and (max-width: 625pt) {
+
+  #header-button-grid {
+    grid-template-areas: "a ."
+                         "b ."
+                         "c .";
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+}
+
+@media screen and (max-width: 450pt) {
 
   #header-button-grid {
     grid-template-areas: "a"

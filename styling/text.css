@@ -38,10 +38,10 @@ p {
   color: hsl(245, 80%, 60%);
 }
 
-@media screen and (max-width: 800pt) {
+@media screen and (max-width: 400pt) {
 
   body {
-    font-size: 1.5vw;
+    font-size: 110%;
   }
 
 }
