@@ -25,6 +25,29 @@ h2 {
   letter-spacing: 1.5;
 }
 
+.link {
+  font-size: 1.125em;
+  color: hsl(245, 80%, 60%);
+  text-decoration: none;
+  border-bottom: 2pt solid hsl(245, 80%, 60%);
+}
+.link:hover {
+  /* Transition */
+  transition: .075s ease-in-out;
+  padding-bottom: -1pt;
+  color: hsla(245, 80%, 60%, .6);
+  border-bottom: 2pt solid hsla(245, 80%, 60%, .6);
+  font-style: italic;
+}
+.link:active {
+  padding-bottom: 0pt;
+  font-style: italic;
+}
+
+.extra-link-spacing {
+  margin-right: 1em;
+}
+
 /* Body styles */
 
 p {
@@ -36,6 +59,7 @@ p {
 .primaryButton {
   font-size: 1.125em;
   color: hsl(245, 80%, 60%);
+  border-bottom: none;
 }
 
 @media screen and (max-width: 400pt) {
