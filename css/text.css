@@ -1,0 +1,38 @@
+body
+{
+  font-family: bio-sans, sans-serif;
+  color: hsl(210, 24%, 16%);
+}
+
+h1
+{
+  font-family: dinosaur, bio-sans, sans-serif;
+  font-size: 4.5rem;
+  line-height: 4rem;
+  color: hsl(238, 73%, 60%);
+}
+
+h2
+{
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+
+h3
+{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h4
+{
+  font-weight: 400;
+  color: hsl(211, 10%, 53%);
+}
+
+a
+{
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(238, 73%, 60%);
+}
