@@ -72,14 +72,12 @@
   border: 0.5px solid hsl(214, 15%, 91%);
   box-shadow: 0 2px 4px  hsl(0, 0%, 0%, 0.20),
               0 8px 16px hsl(0, 0%, 0%, 0.10);
-  filter: grayscale();
 }
 
 .gallery-card:hover
 {
   box-shadow: 0 4px 8px  hsl(0, 0%, 0%, 0.20),
               0 16px 32px hsl(0, 0%, 0%, 0.10);
-  filter: none;
 }
 
 .gallery-card > .card-img-wrapper
